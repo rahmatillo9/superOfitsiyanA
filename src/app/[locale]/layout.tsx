@@ -6,14 +6,10 @@ import { NextIntlClientProvider } from 'next-intl';
 import NavbarB from "@/components/navbar/navbar";
 import Footer from "@/components/footer";
 
-
-
-
-
 export const metadata: Metadata = {
   title: "Super Ofitsiyant",
   description: "",
-   icons: {
+  icons: {
     icon: "/favicon.ico",
   },
 };
@@ -25,7 +21,6 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  // Locale tekshiruvi
   const { locale } = await params;
   if (!routing.locales.includes(locale as 'uz' | 'uzK' | 'ru' | 'en')) {
     notFound();
@@ -33,14 +28,14 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-  <body className="flex flex-col min-h-screen justify-between relative z-0">
-
+      <body className="flex flex-col min-h-screen justify-between relative z-0 bg-[#0b0b0d] text-white">
         <NextIntlClientProvider locale={locale}>
-          <main className="flex-1 flex flex-col">
-              
-        <NavbarB/>
-            {children}
-         <Footer/>
+          <main className="flex-1 flex flex-col items-center">
+            <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <NavbarB />
+              {children}
+              <Footer />
+            </div>
           </main>
         </NextIntlClientProvider>
       </body>

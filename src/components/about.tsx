@@ -2,28 +2,34 @@
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 import { useTranslations } from "next-intl";
+import { useMediaQuery } from "react-responsive";
 
 export default function About() {
   const t = useTranslations("About");
+  const isMobile = useMediaQuery({ maxWidth: 768 }); // 768px dan kichik bo‘lsa — telefon
 
   const sections = [
     {
-      image: "/about/default1.png",
+      imageDesktop: "/about/2025-10-06_20-36-53.png",
+      imageMobile: "/about/mobile1.png",
       title: t("sections.0.title"),
       desc: t("sections.0.desc"),
     },
     {
-      image: "/about/default2.png",
+      imageDesktop: "/about/default2.png",
+      imageMobile: "/about/mobile2.png",
       title: t("sections.1.title"),
       desc: t("sections.1.desc"),
     },
     {
-      image: "/about/default3.png",
+      imageDesktop: "/about/default1.png",
+      imageMobile: "/about/mobile3.png",
       title: t("sections.2.title"),
       desc: t("sections.2.desc"),
     },
     {
-      image: "/about/default4.png",
+      imageDesktop: "/about/2025-10-06_20-45-14.png",
+      imageMobile: "/about/mobile4.png",
       title: t("sections.3.title"),
       desc: t("sections.3.desc"),
     },
@@ -32,7 +38,6 @@ export default function About() {
   return (
     <section className="bg-[#0b0b0d] text-white px-6 md:px-16 py-20">
       <div className="max-w-7xl mx-auto">
-        {/* Bo‘lim sarlavhasi */}
         <Fade triggerOnce direction="up">
           <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16">
             {t("title")}
@@ -42,7 +47,6 @@ export default function About() {
           </h4>
         </Fade>
 
-        {/* Bo‘limlar */}
         <div className="flex flex-col gap-24">
           {sections.map((section, index) => (
             <div
@@ -51,15 +55,15 @@ export default function About() {
                 index % 2 !== 0 ? "md:flex-row-reverse" : ""
               }`}
             >
-              {/* Rasm qismi */}
-              <Fade
-                direction={index % 2 === 0 ? "left" : "right"}
-                triggerOnce
-              >
-                <div className="md:w-2/5 w-full flex justify-center">
+              <Fade direction={index % 2 === 0 ? "left" : "right"} triggerOnce>
+                <div className="w-auto flex justify-center">
                   <div className="w-[280px] sm:w-[340px] md:w-[450px] lg:w-[550px] xl:w-[600px]">
                     <Image
-                      src={section.image}
+                      src={
+                        isMobile
+                          ? section.imageMobile
+                          : section.imageDesktop
+                      }
                       alt={section.title}
                       width={600}
                       height={400}
@@ -69,11 +73,7 @@ export default function About() {
                 </div>
               </Fade>
 
-              {/* Matn qismi */}
-              <Fade
-                direction={index % 2 === 0 ? "right" : "left"}
-                triggerOnce
-              >
+              <Fade direction={index % 2 === 0 ? "right" : "left"} triggerOnce>
                 <div className="md:w-auto space-y-4 text-center md:text-left">
                   <h3 className="text-2xl md:text-3xl font-semibold text-[#4f9eff]">
                     {section.title}
