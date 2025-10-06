@@ -7,7 +7,7 @@ export default function HomePage() {
 
 
   return (
-    <main >
+    <main className="mt-2   ">
       <div id="home">
         <Hero/>
       </div>
