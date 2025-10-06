@@ -1,0 +1,119 @@
+{
+  "Home": {
+    "title": "Super Ofitsiyant loyihasiga xush kelibsiz!",
+    "description": "Oshxonangizni avtomatlashtiring — oson, tez va ishonchli."
+  },
+
+   "LanguageSwitcher": {
+    "uzbek": "Ўзбекча (Кирилл)",
+    "uzbekLatin": "O‘zbekcha (Lotin)",
+    "russian": "Русский",
+    "english": "English"
+  },
+      "Navbar": {
+      "basis": "Bosh sahifa",
+      "prices": "Narxlar",
+      "about": "Biz haqimizda",
+      "contact": "Kontaktlar"
+    
+    },
+
+    "Hero":{
+  "businessPartner": "Business Partner",
+  "priceFrom": "14$ dan",
+  "description": "Jahon miqyosida umumiy ovqatlanish tizimini avtomatlashtirish uchun eng ishonchli yechim.",
+  "install": "SO O‘rnataman",
+  "whySO": "Nega aynan SO?",
+  "feature1": "Zakazlarni qabul qilish",
+  "feature2": "Omborni tizimlashtirish",
+  "feature3": "Savdo ma'lumotlarini tahlil qilish",
+  "feature4": "Doimiy mehmonlarni saralash",
+  "feature5": "Bonus tizimlari",
+  "feature6": "Cheklarni chiqarish",
+  "feature7": "Soliq tizimiga bog‘lanish",
+  "feature8": "Hodimlarni tizimlashtirish",
+  "feature9": "Yetkazib berishni boshqarish",
+  "feature10": "QQS hisobotlari"
+},
+
+"Pricing": {
+  "title": "Super Ofitsiant tariflari",
+  "desc": "Har qanday oshxona yoki kafe uchun qulay va samarali tizim. Admin panel, buyurtma boshqaruvi va chop etish — barchasi siz uchun tayyor.",
+  "plans": {
+    "basic": {
+      "title": "Basic",
+      "price": "14$ / oy",
+      "desc": "Kichik oshxonalar uchun eng qulay yechim.",
+      "features": [
+        "Ofitsiantlar uchun buyurtma olish tizimi",
+        "Oshxonaga avtomatik buyurtma yuborish",
+        "Chek chiqarish funksiyasi"
+      ]
+    },
+    "standard": {
+      "title": "Standard",
+      "price": "18$ / oy",
+      "desc": "O‘rta hajmdagi kafelar va restoranlar uchun optimal tanlov.",
+      "features": [
+        "Basic tarifdagi barcha imkoniyatlar",
+        "Ko‘p ofitsiantli tizim (bir nechta qurilma)",
+        "Real-time buyurtmalarni kuzatish paneli",
+        "Statistika va hisobotlar"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "25$ / oy",
+      "desc": "Katta oshxonalar uchun professional yechim.",
+      "features": [
+        "Standard tarifdagi barcha imkoniyatlar",
+        "Ko‘p filialli tizim (bir nechta joy uchun)",
+        "Qo‘shimcha ro‘yxatlar va menyu boshqaruvi",
+        "Ulangan printerlar va server sozlamalari"
+      ]
+    }
+  }
+},
+
+"About": {
+  "title": "Nega aynan Super Ofitsiyant?",
+  "intro": "Super Ofitsiyant tizimini ishga tushirish uchun sizga maxsus qurilmalar kerak emas — oddiy kompyuter yoki noutbuk yetarli. Bu esa xarajatlarni ancha kamaytiradi. Shu bilan birga, siz istalgancha printerlarni ulashingiz va ularni tizim bilan to‘liq integratsiya qilishingiz mumkin.",
+  "sections": [
+    {
+      "title": "Barcha tizimlarni yagona platformaga birlashtiring",
+      "desc": "Super Ofitsiyant restoran, kafe yoki fast-food tizimlaringizni yagona boshqaruv tizimiga birlashtiradi. Buyurtmalar, xodimlar, chek chiqarish va hisob-kitoblar – barchasi bitta joyda."
+    },
+    {
+      "title": "2 ta ilova – bir tizim",
+      "desc": "SO o‘rnatilgandan so‘ng siz ikkita ilova olasiz: biri ofitsiantlar uchun buyurtmalarni qabul qilish ilovasi, ikkinchisi esa admin uchun tahlil va boshqaruv paneli. Har ikkisi kompyuterda ham, telefonda ham ishlaydi."
+    },
+    {
+      "title": "Hisobotlar va savdolarni istalgan joydan kuzating",
+      "desc": "Admin panel bulut texnologiyasiga asoslangan bo‘lib, internet mavjud bo‘lgan har qanday joydan tizimga kirish imkonini beradi. Kundalik savdolar, ombor, xodimlar va mijozlar haqidagi hisobotlar har doim qo‘lda."
+    },
+    {
+      "title": "Oson o‘rnatish va avtomatik yangilanishlar",
+      "desc": "SO tizimini o‘rnatish bir necha daqiqada amalga oshiriladi. Yangilanishlar avtomatik tarzda keladi, qo‘lda sozlash shart emas."
+    }
+  ]
+},
+
+"Contact": {
+  "title": "Biz bilan bog‘laning",
+  "desc": "Agar sizda savollar, takliflar yoki hamkorlik g‘oyalari bo‘lsa, bemalol yozing.",
+  "trial": "Biz sizga 1 oy TEKIN sinov imkoniyatini taqdim etamiz!",
+  "phone": "Qo‘ng‘iroq",
+  "footer": "Sizning takliflaringiz biz uchun muhim — har bir fikringiz loyihani yanada yaxshilaydi!"
+},
+
+"Footer":{
+  "desc": "Restoran va kafe tizimlarini yagona platformaga birlashtiring — buyurtmalar, hisob-kitoblar va xodimlarni boshqarish endi osonroq.",
+  "rights": "Barcha huquqlar himoyalangan.",
+  "developedBy": "Ishlab chiqilgan"
+}
+
+
+
+
+
+}

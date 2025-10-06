@@ -1,0 +1,117 @@
+{
+  "Home": {
+    "title": "Welcome to Super Waiter project!",
+    "description": "Automate your kitchen — easy, fast and reliable."
+  },
+  "LanguageSwitcher": {
+    "uzbek": "Ўзбекча (Кирилл)",
+    "uzbekLatin": "O‘zbekcha (Lotin)",
+    "russian": "Русский",
+    "english": "English"
+  },
+    "Navbar": {
+    "basis": "Home",
+    "prices": "Prices",
+    "about": "About",
+    "contact": "Contact"
+   
+  },
+
+  "Hero": {
+  "businessPartner": "Business Partner",
+  "priceFrom": "From $14",
+  "description": "The most reliable solution for automating the food service system worldwide.",
+  "install": "Install SO",
+  "whySO": "Why choose SO?",
+  "feature1": "Order management",
+  "feature2": "Warehouse organization",
+  "feature3": "Sales data analysis",
+  "feature4": "Loyal customer filtering",
+  "feature5": "Bonus systems",
+  "feature6": "Receipt printing",
+  "feature7": "Tax system integration",
+  "feature8": "Employee management",
+  "feature9": "Delivery management",
+  "feature10": "VAT reports"
+},
+
+"Pricing": {
+  "title": "Super Waiter Plans",
+  "desc": "A convenient and efficient system for any kitchen or café. Admin panel, order management, and check printing — all ready for you.",
+  "plans": {
+    "basic": {
+      "title": "Basic",
+      "price": "$14 / month",
+      "desc": "The most affordable option for small kitchens.",
+      "features": [
+        "Order system for waiters",
+        "Automatic order sending to kitchen",
+        "Receipt printing feature"
+      ]
+    },
+    "standard": {
+      "title": "Standard",
+      "price": "$18 / month",
+      "desc": "Optimal choice for medium cafés and restaurants.",
+      "features": [
+        "All Basic plan features",
+        "Multi-waiter support",
+        "Real-time order tracking panel",
+        "Statistics and reports"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "$25 / month",
+      "desc": "Professional solution for large kitchens.",
+      "features": [
+        "All Standard plan features",
+        "Multi-branch support (multiple locations)",
+        "Menu and category management",
+        "Printer and server configuration options"
+      ]
+    }
+  }
+},
+
+"About": {
+  "title": "Why Super Waiter?",
+   "intro": "To run the Super Waiter system, you don't need any special devices - a regular computer or laptop is enough. This significantly reduces costs. At the same time, you can connect as many printers as you want and fully integrate them with the system.",
+  "sections": [
+    {
+      "title": "Unify all your systems on one platform",
+      "desc": "Super Waiter combines your restaurant, café, or fast-food operations into one unified management system. Orders, staff, receipt printing, and accounting — all in one place."
+    },
+    {
+      "title": "2 apps – one system",
+      "desc": "After installing SO, you get two apps: one for waiters to receive orders, and another for admins to manage and analyze operations. Both work on computers and mobile devices."
+    },
+    {
+      "title": "Track reports and sales from anywhere",
+      "desc": "The admin panel is cloud-based, allowing access from anywhere with an internet connection. Daily sales, warehouse, staff, and customer reports are always available."
+    },
+    {
+      "title": "Easy setup and automatic updates",
+      "desc": "Installing SO takes just a few minutes. Updates are delivered automatically, with no manual configuration required."
+    }
+  ]
+},
+
+"Contact": {
+  "title": "Contact Us",
+  "desc": "If you have any questions, suggestions, or collaboration ideas, feel free to reach out.",
+  "trial": "We offer you a 1-month FREE trial period!",
+  "phone": "Call",
+  "footer": "Your feedback matters — every thought helps us improve the project!"
+},
+
+"Footer":{
+  "desc": "Unify your restaurant and café systems on one platform — managing orders, payments, and staff has never been easier.",
+  "rights": "All rights reserved.",
+  "developedBy": "Developed by"
+}
+
+
+
+
+}
