@@ -3,10 +3,18 @@ import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 import { useTranslations } from "next-intl";
 import { useMediaQuery } from "react-responsive";
+import { useEffect, useState } from "react";
 
 export default function About() {
   const t = useTranslations("About");
-  const isMobile = useMediaQuery({ maxWidth: 768 }); // 768px dan kichik bo‘lsa — telefon
+  const [isClient, setIsClient] = useState(false);
+
+  // faqat client tomonda mediaQuery ni ishlatamiz
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
   const sections = [
     {
@@ -58,17 +66,19 @@ export default function About() {
               <Fade direction={index % 2 === 0 ? "left" : "right"} triggerOnce>
                 <div className="w-auto flex justify-center">
                   <div className="w-[280px] sm:w-[340px] md:w-[450px] lg:w-[550px] xl:w-[600px]">
-                    <Image
-                      src={
-                        isMobile
-                          ? section.imageMobile
-                          : section.imageDesktop
-                      }
-                      alt={section.title}
-                      width={600}
-                      height={400}
-                      className="w-full h-auto rounded-3xl shadow-[0_0_30px_rgba(79,158,255,0.2)] border border-[#1c1c22] object-cover"
-                    />
+                    {isClient && (
+                      <Image
+                        src={
+                          isMobile
+                            ? section.imageMobile
+                            : section.imageDesktop
+                        }
+                        alt={section.title}
+                        width={600}
+                        height={400}
+                        className="w-full h-auto rounded-3xl shadow-[0_0_30px_rgba(79,158,255,0.2)] border border-[#1c1c22] object-cover"
+                      />
+                    )}
                   </div>
                 </div>
               </Fade>
