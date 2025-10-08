@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Super Ofitsiyant",
-  description: "",
+  description: "Get to know the Super Waiter project better",
   icons: {
     icon: "/favicon.ico",
   },
