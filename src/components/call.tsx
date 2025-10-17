@@ -42,7 +42,7 @@ export default function ContactSection() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/998932688278"
+              href="https://wa.me/998959846030"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center justify-center bg-[#111113] border border-[#1f1f24] hover:border-[#4f9eff] rounded-2xl py-6 transition-all hover:-translate-y-1 shadow-md hover:shadow-[0_0_15px_rgba(79,158,255,0.3)]"
@@ -54,7 +54,7 @@ export default function ContactSection() {
 
             {/* Telefon */}
             <a
-              href="tel:+998932688278"
+              href="tel:+998959846030"
               className="flex flex-col items-center justify-center bg-[#111113] border border-[#1f1f24] hover:border-[#4f9eff] rounded-2xl py-6 transition-all hover:-translate-y-1 shadow-md hover:shadow-[0_0_15px_rgba(79,158,255,0.3)]"
             >
               <Phone className="text-[#4f9eff] w-7 h-7 mb-2" />

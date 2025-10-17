@@ -20,7 +20,7 @@ export default function Hero() {
 
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/998932688278?text=Salom,%20men%20Super%20Ofitsiant%20haqida%20qiziqyapman!%20😊",
+      "https://wa.me/998959846030?text=Salom,%20men%20Super%20Ofitsiant%20haqida%20qiziqyapman!%20😊",
       "_blank"
     );
   };
@@ -35,7 +35,7 @@ export default function Hero() {
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+998932688278";
+    window.location.href = "tel:+998959846030";
   };
 
   const features = [
