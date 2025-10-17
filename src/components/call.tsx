@@ -49,7 +49,7 @@ export default function ContactSection() {
             >
               <MessageCircle className="text-[#4f9eff] w-7 h-7 mb-2" />
               <p className="text-sm text-gray-400">WhatsApp</p>
-              <p className="font-semibold">+998 93 268 82 78</p>
+              <p className="font-semibold">+998 95 984 60 30</p>
             </a>
 
             {/* Telefon */}
@@ -59,7 +59,7 @@ export default function ContactSection() {
             >
               <Phone className="text-[#4f9eff] w-7 h-7 mb-2" />
               <p className="text-sm text-gray-400">{t("phone")}</p>
-              <p className="font-semibold">+998 93 268 82 78</p>
+              <p className="font-semibold">+998 95 984 60 30</p>
             </a>
 
             {/* Email */}
