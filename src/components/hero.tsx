@@ -43,6 +43,7 @@ export default function Hero() {
     t("feature3"),
     t("feature6"),
     t("feature8"),
+    t("feature2"),
   ];
 
   return (
@@ -65,20 +66,39 @@ export default function Hero() {
         </p>
 
         {/* Afzalliklar */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
-          {features.map((item, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.05 }}
-              className="flex items-center gap-2 text-gray-300"
-            >
-              <Check size={18} className="text-[#4f9eff]" />
-              <span>{item}</span>
-            </motion.div>
-          ))}
-        </div>
+  {/* Afzalliklar */}
+{/* Afzalliklar */}
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
+  {features.map((item, idx) => (
+    <motion.div
+      key={idx}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: idx * 0.05 }}
+      className="flex items-center gap-2 text-gray-300"
+    >
+      {/* Agar bu 'Omborni tizimlashtirish' bo‘lsa — sariq dumaloq */}
+      {item === t("feature2") ? (
+        <span className="w-4 h-4 rounded-full bg-yellow-400 animate-pulse inline-block"></span>
+      ) : (
+        <Check size={18} className="text-[#4f9eff]" />
+      )}
+
+      <span className="flex items-center gap-2">
+        {item}
+
+        {/* "Tez kunda" belgisi */}
+        {item === t("feature2") && (
+          <span className="ml-2 text-xs bg-yellow-400 text-black px-2 py-[2px] rounded-full font-semibold">
+            {t("comingSoon") || "Tez kunda"}
+          </span>
+        )}
+      </span>
+    </motion.div>
+  ))}
+</div>
+
+
 
         {/* Tugmalar */}
         <div className="flex flex-wrap gap-4 pt-6">
