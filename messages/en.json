@@ -11,6 +11,7 @@
   },
     "Navbar": {
     "basis": "Home",
+    "demo": "Demo",
     "prices": "Prices",
     "about": "About",
     "contact": "Contact"
@@ -23,6 +24,7 @@
   "description": "The most reliable solution for automating the food service system worldwide.",
   "install": "Install SO",
   "whySO": "Why choose SO?",
+  "demo": "Try the demo",
       "comingSoon": "Coming Soon",
   "feature1": "Order management",
   "feature2": "Warehouse organization",
@@ -110,9 +112,18 @@
   "desc": "Unify your restaurant and café systems on one platform — managing orders, payments, and staff has never been easier.",
   "rights": "All rights reserved.",
   "developedBy": "Developed by"
+},
+
+"Demo":{
+  "demo": "Demo",
+  "try": "try the version",
+  "adminp": "Admin panel",
+  "link": "Link",
+  "ofisiant": "Try being a waiter",
+  "warning": "Attention! The demo version may be a bit slow at times, as it is hosted on a budget server. Contact us for full capabilities."
+  
+
 }
-
-
 
 
 }

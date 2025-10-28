@@ -66,8 +66,7 @@ export default function Hero() {
         </p>
 
         {/* Afzalliklar */}
-  {/* Afzalliklar */}
-{/* Afzalliklar */}
+
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
   {features.map((item, idx) => (
     <motion.div
@@ -101,27 +100,37 @@ export default function Hero() {
 
 
         {/* Tugmalar */}
-        <div className="flex flex-wrap gap-4 pt-6">
-          {!showContacts ? (
-            <>
-              <motion.button
-                onClick={() => setShowContacts(true)}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 bg-[#4f9eff] rounded-2xl text-white font-semibold shadow-lg hover:bg-[#62aaff] transition-all"
-              >
-                {t("install")}
-              </motion.button>
+<div className="flex flex-wrap gap-4 pt-6">
+  {!showContacts ? (
+    <>
+      <motion.button
+        onClick={() => setShowContacts(true)}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="px-6 py-3 bg-[#4f9eff] rounded-2xl text-white font-semibold shadow-lg hover:bg-[#62aaff] transition-all"
+      >
+        {t("install")}
+      </motion.button>
 
-              <motion.button
-                onClick={() => handleSmoothScroll("#about")}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 border border-[#4f9eff] rounded-2xl text-[#4f9eff] font-semibold hover:bg-[#1b1b1f] transition-all"
-              >
-                {t("whySO")}
-              </motion.button>
-            </>
+      <motion.button
+        onClick={() => handleSmoothScroll("#about")}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="px-6 py-3 border border-[#4f9eff] rounded-2xl text-[#4f9eff] font-semibold hover:bg-[#1b1b1f] transition-all"
+      >
+        {t("whySO")}
+      </motion.button>
+
+      {/* 🆕 Demo tugmasi */}
+      <motion.button
+        onClick={() => handleSmoothScroll("#demo")}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="px-6 py-3 border border-[#10b981] rounded-2xl text-[#10b981] font-semibold hover:bg-[#1b1b1f] transition-all"
+      >
+        🎯 {t("demo")}
+      </motion.button>
+    </>
           ) : (
             <motion.div
               initial={{ opacity: 0, y: 10 }}

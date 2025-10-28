@@ -13,6 +13,7 @@
       "Navbar": {
       "basis": "Bosh sahifa",
       "prices": "Narxlar",
+      "Demo": "Demo",
       "about": "Biz haqimizda",
       "contact": "Kontaktlar"
     
@@ -24,6 +25,7 @@
   "description": "Jahon miqyosida umumiy ovqatlanish tizimini avtomatlashtirish uchun eng ishonchli yechim.",
   "install": "SO O‘rnataman",
   "comingSoon": "Tez kunda",
+    "demo": "Demo sinab ko‘ring",
   "whySO": "Nega aynan SO?",
   "feature1": "Zakazlarni qabul qilish",
   "feature2": "Omborni tizimlashtirish",
@@ -111,6 +113,17 @@
   "desc": "Restoran va kafe tizimlarini yagona platformaga birlashtiring — buyurtmalar, hisob-kitoblar va xodimlarni boshqarish endi osonroq.",
   "rights": "Barcha huquqlar himoyalangan.",
   "developedBy": "Ishlab chiqilgan"
+},
+
+"Demo":{
+  "demo": "Demo",
+  "try": "sinab ko‘ring",
+  "adminp": "Admin paneli",
+  "link": "Havola",
+  "ofisiant": "Ofisiant sifatida sinang",
+  "warning": "Diqqat! Demo versiya byudjet serverda joylashganligi sababli ba’zida biroz sekin ishlashi mumkin. To‘liq imkoniyatlar uchun biz bilan bog‘laning."
+  
+
 }
 
 

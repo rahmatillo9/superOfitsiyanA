@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@heroui/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/react";
 import { Menu, X } from "lucide-react";
 import LanguageSwitcher from "../leangugeS";
 import { useTranslations } from "next-intl";
@@ -59,6 +59,15 @@ export default function NavbarB() {
             {t("about")}
           </button>
         </NavbarItem>
+         <NavbarItem>
+          <button
+            onClick={() => handleSmoothScroll("#demo")}
+            className="text-gray-300 hover:text-green-400 transition-all"
+          >
+            {t("demo")}
+          </button>
+        </NavbarItem>
+
            <NavbarItem>
           <button
             onClick={() => handleSmoothScroll("#contact")}
