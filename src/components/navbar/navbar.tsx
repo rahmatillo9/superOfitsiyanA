@@ -1,14 +1,15 @@
 'use client';
 import { useState } from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/react";
-import { Menu, X } from "lucide-react";
+import {  Home, DollarSign, Info, MessageCircle } from "lucide-react";
 import LanguageSwitcher from "../leangugeS";
 import { useTranslations } from "next-intl";
+
 
 export default function NavbarB() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations("Navbar");
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
 
   const handleSmoothScroll = (id: string) => {
     const element = document.querySelector(id);
@@ -20,9 +21,12 @@ export default function NavbarB() {
     }
   };
 
+  console.log("isMenuOpen:", isMenuOpen);
+  
+
   return (
     <Navbar
-    shouldHideOnScroll
+
       isBordered
       maxWidth="xl"
       className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white px-4 md:px-8 shadow-md"
@@ -59,14 +63,14 @@ export default function NavbarB() {
             {t("about")}
           </button>
         </NavbarItem>
-         <NavbarItem>
+         {/* <NavbarItem>
           <button
             onClick={() => handleSmoothScroll("#demo")}
             className="text-gray-300 hover:text-green-400 transition-all"
           >
             {t("demo")}
           </button>
-        </NavbarItem>
+        </NavbarItem> */}
 
            <NavbarItem>
           <button
@@ -88,37 +92,34 @@ export default function NavbarB() {
       {/* Mobile burger icon */}
       <div className="md:hidden flex items-center gap-2">
         <LanguageSwitcher />
-        <button
-          onClick={toggleMenu}
-          className="text-white focus:outline-none transition-transform hover:scale-110"
-        >
-          {isMenuOpen ? <X size={26} /> : <Menu size={26} />}
-        </button>
+
       </div>
 
       {/* Mobile dropdown */}
-      {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-gray-900 border-t border-gray-700 flex flex-col items-start px-6 py-4 space-y-3 md:hidden animate-fade-in">
-          <button
-            onClick={() => handleSmoothScroll("#home")}
-            className="text-gray-300 hover:text-green-400 text-lg transition-all w-full text-left"
-          >
-            {t("basis")}
-          </button>
-          <button
-            onClick={() => handleSmoothScroll("#pricing")}
-            className="text-gray-300 hover:text-green-400 text-lg transition-all w-full text-left"
-          >
-            {t("prices")}
-          </button>
-          <button
-            onClick={() => handleSmoothScroll("#about")}
-            className="text-gray-300 hover:text-green-400 text-lg transition-all w-full text-left"
-          >
-            {t("about")}
-          </button>
-        </div>
-      )}
+{/* Bottom Navigation (faqat mobil uchun) */}
+<div className="fixed bottom-0 left-0 w-full 
+                bg-gray-900/70 backdrop-blur-md 
+                border-t border-gray-700/50 
+                flex justify-around items-center py-2 
+                md:hidden z-50 shadow-inner">
+  <button onClick={() => handleSmoothScroll("#home")} className="flex flex-col items-center text-gray-300 hover:text-green-400">
+    <Home size={22} />
+    <span className="text-xs">{t("basis")}</span>
+  </button>
+  <button onClick={() => handleSmoothScroll("#pricing")} className="flex flex-col items-center text-gray-300 hover:text-green-400">
+    <DollarSign size={22} />
+    <span className="text-xs">{t("prices")}</span>
+  </button>
+  <button onClick={() => handleSmoothScroll("#about")} className="flex flex-col items-center text-gray-300 hover:text-green-400">
+    <Info size={22} />
+    <span className="text-xs">{t("about")}</span>
+  </button>
+  <button onClick={() => handleSmoothScroll("#contact")} className="flex flex-col items-center text-gray-300 hover:text-green-400">
+    <MessageCircle size={22} />
+    <span className="text-xs">{t("contact")}</span>
+  </button>
+</div>
+
     </Navbar>
   );
 }

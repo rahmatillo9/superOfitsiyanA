@@ -47,7 +47,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="min-h-[90vh] bg-[#0b0b0d] text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 overflow-hidden">
+    <section className="min-h-[90vh] bg-[#0b0b0d] mt-7 text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 overflow-hidden">
       {/* Chap qism */}
       <motion.div
         initial={{ opacity: 0, x: -40 }}
@@ -122,14 +122,14 @@ export default function Hero() {
       </motion.button>
 
       {/* 🆕 Demo tugmasi */}
-      <motion.button
+      {/* <motion.button
         onClick={() => handleSmoothScroll("#demo")}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="px-6 py-3 border border-[#10b981] rounded-2xl text-[#10b981] font-semibold hover:bg-[#1b1b1f] transition-all"
       >
         🎯 {t("demo")}
-      </motion.button>
+      </motion.button> */}
     </>
           ) : (
             <motion.div
