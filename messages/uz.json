@@ -21,7 +21,7 @@
 
     "Hero":{
   "businessPartner": "Business Partner",
-  "priceFrom": "16$ dan",
+  "priceFrom": "20$ dan",
   "description": "Jahon miqyosida umumiy ovqatlanish tizimini avtomatlashtirish uchun eng ishonchli yechim.",
   "install": "SO O‘rnataman",
   "comingSoon": "Tez kunda",
@@ -45,9 +45,11 @@
   "plans": {
     "basic": {
       "title": "Basic",
-      "price": "16$ / oy",
+      "price": "20$ / oy",
       "desc": "Kichik oshxonalar uchun eng qulay yechim.",
       "features": [
+        "Tekin servis",
+        "Savdoni kuzatish",
         "Ofitsiantlar uchun buyurtma olish tizimi",
         "Oshxonaga avtomatik buyurtma yuborish",
         "Chek chiqarish funksiyasi"
@@ -55,9 +57,10 @@
     },
     "standard": {
       "title": "Standard",
-      "price": "20$ / oy",
+      "price": "25$ / oy",
       "desc": "O‘rta hajmdagi kafelar va restoranlar uchun optimal tanlov.",
       "features": [
+        "Tekin servis",
         "Basic tarifdagi barcha imkoniyatlar",
         "Ko‘p ofitsiantli tizim (bir nechta qurilma)",
         "Real-time buyurtmalarni kuzatish paneli",
@@ -67,9 +70,10 @@
     },
     "pro": {
       "title": "Pro",
-      "price": "50$ / oy",
+      "price": "70$ / oy",
       "desc": "Katta oshxonalar uchun professional yechim.",
       "features": [
+        "Tekin servis",
         "Standard tarifdagi barcha imkoniyatlar",
         "Ko‘p filialli tizim (bir nechta joy uchun)",
         "Qo‘shimcha ro‘yxatlar va menyu boshqaruvi",

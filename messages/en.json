@@ -44,9 +44,11 @@
   "plans": {
     "basic": {
       "title": "Basic",
-      "price": "$16 / month",
+      "price": "$20 / month",
       "desc": "The most affordable option for small kitchens.",
       "features": [
+        "Free service",
+        "Trade tracking",
         "Order system for waiters",
         "Automatic order sending to kitchen",
         "Receipt printing feature"
@@ -54,24 +56,28 @@
     },
     "standard": {
       "title": "Standard",
-      "price": "$20 / month",
+      "price": "$25 / month",
       "desc": "Optimal choice for medium cafés and restaurants.",
       "features": [
+        "Free service",
         "All Basic plan features",
         "Multi-waiter support",
         "Real-time order tracking panel",
-        "Statistics and reports"
+        "Statistics and reports",
+        "📦 Warehouse Management (Warehouse)"
       ]
     },
     "pro": {
       "title": "Pro",
-      "price": "$50 / month",
+      "price": "$70 / month",
       "desc": "Professional solution for large kitchens.",
       "features": [
+        "Free service",
         "All Standard plan features",
         "Multi-branch support (multiple locations)",
         "Menu and category management",
-        "Printer and server configuration options"
+        "Printer and server configuration options",
+        "📦 Warehouse Management (Warehouse)"
       ]
     }
   }
