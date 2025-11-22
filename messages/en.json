@@ -20,7 +20,7 @@
 
   "Hero": {
   "businessPartner": "Business Partner",
-  "priceFrom": "From $14",
+  "priceFrom": "From $16",
   "description": "The most reliable solution for automating the food service system worldwide.",
   "install": "Install SO",
   "whySO": "Why choose SO?",
@@ -44,7 +44,7 @@
   "plans": {
     "basic": {
       "title": "Basic",
-      "price": "$14 / month",
+      "price": "$16 / month",
       "desc": "The most affordable option for small kitchens.",
       "features": [
         "Order system for waiters",
@@ -54,7 +54,7 @@
     },
     "standard": {
       "title": "Standard",
-      "price": "$18 / month",
+      "price": "$20 / month",
       "desc": "Optimal choice for medium cafés and restaurants.",
       "features": [
         "All Basic plan features",
@@ -65,7 +65,7 @@
     },
     "pro": {
       "title": "Pro",
-      "price": "$25 / month",
+      "price": "$50 / month",
       "desc": "Professional solution for large kitchens.",
       "features": [
         "All Standard plan features",
@@ -96,7 +96,18 @@
     {
       "title": "Easy setup and automatic updates",
       "desc": "Installing SO takes just a few minutes. Updates are delivered automatically, with no manual configuration required."
-    }
+    },
+    {
+  "title": "Full Warehouse Control",
+  "desc": "The SO warehouse module automatically tracks all product movements. As each dish is prepared, used ingredients are deducted automatically, the remaining stock is displayed accurately, and the system notifies you when supplies are running low."
+},
+
+{
+  "title": "Fully Customizable Receipt Design",
+  "desc": "SO allows you to create receipts exactly the way you want. You can customize the layout, change the style, edit text formats, and add your restaurant or café logo for a beautifully branded receipt. Whether it’s a simple layout or a premium design, SO lets you generate clean, professional receipts that match your identity."
+}
+
+
   ]
 },
 

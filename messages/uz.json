@@ -21,7 +21,7 @@
 
     "Hero":{
   "businessPartner": "Business Partner",
-  "priceFrom": "14$ dan",
+  "priceFrom": "16$ dan",
   "description": "Jahon miqyosida umumiy ovqatlanish tizimini avtomatlashtirish uchun eng ishonchli yechim.",
   "install": "SO O‘rnataman",
   "comingSoon": "Tez kunda",
@@ -45,7 +45,7 @@
   "plans": {
     "basic": {
       "title": "Basic",
-      "price": "14$ / oy",
+      "price": "16$ / oy",
       "desc": "Kichik oshxonalar uchun eng qulay yechim.",
       "features": [
         "Ofitsiantlar uchun buyurtma olish tizimi",
@@ -55,28 +55,31 @@
     },
     "standard": {
       "title": "Standard",
-      "price": "18$ / oy",
+      "price": "20$ / oy",
       "desc": "O‘rta hajmdagi kafelar va restoranlar uchun optimal tanlov.",
       "features": [
         "Basic tarifdagi barcha imkoniyatlar",
         "Ko‘p ofitsiantli tizim (bir nechta qurilma)",
         "Real-time buyurtmalarni kuzatish paneli",
-        "Statistika va hisobotlar"
+        "Statistika va hisobotlar",
+        "📦 Omborni boshqarish (Warehouse)"
       ]
     },
     "pro": {
       "title": "Pro",
-      "price": "25$ / oy",
+      "price": "50$ / oy",
       "desc": "Katta oshxonalar uchun professional yechim.",
       "features": [
         "Standard tarifdagi barcha imkoniyatlar",
         "Ko‘p filialli tizim (bir nechta joy uchun)",
         "Qo‘shimcha ro‘yxatlar va menyu boshqaruvi",
-        "Ulangan printerlar va server sozlamalari"
+        "Ulangan printerlar va server sozlamalari",
+        "📦 Omborni boshqarish (Warehouse)"
       ]
     }
   }
 },
+
 
 "About": {
   "title": "Nega aynan Super Ofitsiyant?",
@@ -97,7 +100,18 @@
     {
       "title": "Oson o‘rnatish va avtomatik yangilanishlar",
       "desc": "SO tizimini o‘rnatish bir necha daqiqada amalga oshiriladi. Yangilanishlar avtomatik tarzda keladi, qo‘lda sozlash shart emas."
-    }
+    },
+
+   {
+  "title": "Omborni to‘liq nazorat qilish",
+  "desc": "SO ombor moduli barcha mahsulotlar harakatini avtomatik hisoblaydi. Har bir taom tayyorlanganda ishlatilgan mahsulotlar avtomatik kamayadi, qolgan zaxira miqdori aniq ko‘rsatiladi va tugab borayotganda sizga ogohlantirish yuboriladi."
+},
+{
+  "title": "To‘liq sozlanadigan chek dizayni",
+  "desc": "SO sizga chek dizaynini xohlagan ko‘rinishda yaratish imkonini beradi. Siz maketni o‘zgartirishingiz, dizayn elementlarini tahrirlashingiz, shriftlarni sozlashingiz va oshxona yoki kafe logotipingizni qo‘shib, brendlangan chiroyli chek chiqarishingiz mumkin. Oddiy yoki premium ko‘rinish bo‘lsin — SO doimo toza, professional va sizning uslubingizga mos chek yaratadi."
+}
+
+
   ]
 },
 

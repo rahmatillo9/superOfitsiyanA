@@ -17,9 +17,15 @@ export default function About() {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   const sections = [
+            {
+      imageDesktop: "/about/image.png",
+      imageMobile: "/about/photo_5_2025-11-22_10-29-10.jpg",
+      title: t("sections.5.title"),
+      desc: t("sections.5.desc"),
+    },
     {
-      imageDesktop: "/about/2025-10-06_20-36-53.png",
-      imageMobile: "/about/mobile1.png",
+      imageDesktop: "/about/2025-11-22_10-22-35.png",
+      imageMobile: "/about/photo_4_2025-11-22_10-29-10.jpg",
       title: t("sections.0.title"),
       desc: t("sections.0.desc"),
     },
@@ -30,17 +36,25 @@ export default function About() {
       desc: t("sections.1.desc"),
     },
     {
-      imageDesktop: "/about/default1.png",
-      imageMobile: "/about/mobile3.png",
+      imageDesktop: "/about/2025-11-22_10-24-39.png",
+      imageMobile: "/about/photo_1_2025-11-22_10-29-10.jpg",
       title: t("sections.2.title"),
       desc: t("sections.2.desc"),
     },
     {
       imageDesktop: "/about/2025-10-06_20-45-14.png",
-      imageMobile: "/about/mobile4.png",
+      imageMobile: "/about/photo_2025-11-22_10-50-32.jpg",
       title: t("sections.3.title"),
       desc: t("sections.3.desc"),
     },
+
+     {
+      imageDesktop: "/about/2025-11-22_10-23-43.png",
+      imageMobile: "/about/photo_2_2025-11-22_10-29-10.jpg",
+      title: t("sections.4.title"),
+      desc: t("sections.4.desc"),
+    },
+
   ];
 
   return (
