@@ -47,7 +47,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="min-h-[90vh] bg-[#0b0b0d] mt-7 text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 overflow-hidden">
+    <section className="min-h-[90vh] bg-[#0b0b0d] mt-7 text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 md:gap-x-24 lg:gap-x-32 overflow-hidden">
       {/* Chap qism */}
       <motion.div
         initial={{ opacity: 0, x: -40 }}

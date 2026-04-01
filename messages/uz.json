@@ -41,6 +41,7 @@
 
 "Pricing": {
   "title": "Super Ofitsiant tariflari",
+  "shareText": "Super Ofitsiant tariflarini ko‘ring",
   "desc": "Har qanday oshxona yoki kafe uchun qulay va samarali tizim. Admin panel, buyurtma boshqaruvi va chop etish — barchasi siz uchun tayyor.",
   "plans": {
     "basic": {

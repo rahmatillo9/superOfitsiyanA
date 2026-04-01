@@ -40,6 +40,7 @@
 
 "Pricing": {
   "title": "Super Waiter Plans",
+  "shareText": "View Super Ofitsiant Plans",
   "desc": "A convenient and efficient system for any kitchen or café. Admin panel, order management, and check printing — all ready for you.",
   "plans": {
     "basic": {
