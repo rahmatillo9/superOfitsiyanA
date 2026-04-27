@@ -39,7 +39,7 @@ export default function DemoSection() {
             </a>
           </p>
           <p className="text-gray-300">
-            <strong>Login:</strong> Admin <br />
+            <strong>Login:</strong> Butcher <br />
             <strong>Password:</strong> 571632
           </p>
         </motion.div>
